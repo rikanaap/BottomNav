@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="30px"
+        android:background="@color/pink"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tren untuk Anda"
+            android:textSize="50px"
+            android:textColor="@color/whit"
+            android:paddingTop="30px"
+            android:paddingBottom="30px"
+            android:fontFamily="@font/bold" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10px"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sedang tren dalam Indonesia"
+                android:textColor="@color/gray"
+                android:textSize="40px"
+                android:fontFamily="@font/regular"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Double Cheese Burger"
+                android:textColor="@color/whit"
+                android:textSize="50px"
+                android:fontFamily="@font/bold"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1.388 Pesanan"
+                android:fontFamily="@font/regular"
+                android:textSize="40px"
+                android:layout_gravity="end"
+                android:textColor="@color/gray"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10px"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sedang tren Hari ini"
+                android:textColor="@color/gray"
+                android:textSize="40px"
+                android:fontFamily="@font/regular"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cheese Burger"
+                android:textColor="@color/whit"
+                android:textSize="50px"
+                android:fontFamily="@font/bold"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="543 Pesanan"
+                android:fontFamily="@font/regular"
+                android:textSize="40px"
+                android:layout_gravity="end"
+                android:textColor="@color/gray"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10px"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sedang tren dalam Side item"
+                android:textColor="@color/gray"
+                android:textSize="40px"
+                android:fontFamily="@font/regular"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="French Fries"
+                android:textColor="@color/whit"
+                android:textSize="50px"
+                android:fontFamily="@font/bold"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="964 Pesanan"
+                android:fontFamily="@font/regular"
+                android:textSize="40px"
+                android:layout_gravity="end"
+                android:textColor="@color/gray"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10px"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Menu terbaru"
+                android:textColor="@color/gray"
+                android:textSize="40px"
+                android:fontFamily="@font/regular"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Chicken Fillet Burger"
+                android:textColor="@color/whit"
+                android:textSize="50px"
+                android:fontFamily="@font/bold"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="639 Pesanan"
+                android:fontFamily="@font/regular"
+                android:textSize="40px"
+                android:layout_gravity="end"
+                android:textColor="@color/gray"/>
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

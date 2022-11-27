@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/pink">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/bold"
+        android:text="Hello!"
+        android:textColor="@color/whit"
+        android:textSize="130px"
+        app:layout_constraintBottom_toTopOf="@+id/inputEmail"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.846" />
+
+    <EditText
+        android:id="@+id/inputEmail"
+        android:layout_width="800px"
+        android:layout_height="140px"
+        android:layout_marginTop="216dp"
+        android:inputType="textEmailAddress"
+        android:hint="Email"
+        android:fontFamily="@font/medium"
+        android:textColor="@color/redy"
+        android:textColorHint="#584444"
+        android:background="@drawable/input_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextTextPassword"
+        android:layout_width="800px"
+        android:layout_height="140px"
+        android:background="@drawable/input_button"
+        android:maxLength="8"
+        android:hint="Password"
+        android:fontFamily="@font/medium"
+        android:textColor="@color/redy"
+        android:inputType="textPassword"
+        android:textColorHint="#584444"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.509"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/inputEmail"
+        app:layout_constraintVertical_bias="0.026" />
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="300px"
+        android:layout_height="150px"
+        android:background="@drawable/round"
+        android:fontFamily="@font/medium"
+        android:text="Login"
+        android:textColor="@color/whit"
+        android:textAllCaps="false"
+        android:textSize="60px"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.181"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword"
+        app:layout_constraintVertical_bias="0.076" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/medium"
+        android:text="Need Help?"
+        android:clickable="true"
+        android:textColor="@color/redy"
+        android:textSize="40px"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.686"
+        app:layout_constraintStart_toEndOf="@+id/btn_login"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword"
+        app:layout_constraintVertical_bias="0.116" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
